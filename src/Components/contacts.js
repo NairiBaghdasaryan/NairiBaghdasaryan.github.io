@@ -6,7 +6,7 @@ const Contact =() => {
       	
       		<Grid className= 'contact-grid'>
       			<Cell col = {6}> 
-      				<h2>Nairi Baghdasaryan</h2>
+      				<h2>Name Surname</h2>
       				<img style = {{ height: '250px', paddingTop: '0px', margin: 'auto'}} src = 'https://www.domstamand.com/wp-content/uploads/2016/12/avatar1.jpg'
       					alt = 'avatar1'
       				/>
@@ -20,20 +20,20 @@ const Contact =() => {
 	      				<List style= {{paddingTop:'2em', textAlign: 'center' }}>
 							  <ListItem>
 							    <ListItemContent style={{fontSize: '20px', fontFamily:"Josefin Sans"}}>
-							    	<i className="fa fa-phone-square" aria-hidden='true'/> (+48)694 909984
+							    	<i className="fa fa-phone-square" aria-hidden='true'/> (+48) 000 909000
 							    </ListItemContent>
 							  </ListItem>
 
 							  <ListItem>
 							    <ListItemContent style={{fontSize: '20px', fontFamily:"Josefin Sans"}}>
-							    	<i className="fa fa-envelope" aria-hidden='true'/> nairi.baghdasaryan@gmail.com
+							    	<i className="fa fa-envelope" aria-hidden='true'/> name.example@gmail.com
 							    </ListItemContent>
 							  </ListItem>
 
 							  <ListItem>
 							   <ListItemContent 
 							    	style={{fontSize: '20px', fontFamily:"Josefin Sans"}}>
-							    	<i className="fa fa-skype" aria-hidden='true'/> nairi.baghdasaryan11221132515
+							    	<i className="fa fa-skype" aria-hidden='true'/> name.example
 							    </ListItemContent>
 							  </ListItem>
 						</List>

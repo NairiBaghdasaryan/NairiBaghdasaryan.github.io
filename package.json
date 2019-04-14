@@ -2,8 +2,9 @@
   "name": "firstproject",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://Nairibaghdasaryan.github.io/Nairibaghdasaryan.github.io",
+  "homepage": "http://Nairibaghdasaryan.github.io/Nairibaghdasaryan.github.io",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-mdl": "^1.11.0",
