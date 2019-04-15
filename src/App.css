@@ -1,4 +1,4 @@
-.header-color, .landing-grid {
+.header-color, .landing-grid, .cards {
   background: #FEAC5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -10,7 +10,6 @@
   width: 100%;
   justify-content: center;
   top:3em;
-  
   display: block;
   padding-bottom: 10px;
 }
@@ -50,6 +49,9 @@
   padding-top: 10px;
 }
 
+.category-tab {
+  border: 3px solid black;
+}
 
 .soc-links i {
    color: white; 
@@ -60,6 +62,7 @@
 
 .cards {
   text-align: center;
+  padding-top: 10px;
 }
 
 .cardstext {
@@ -74,12 +77,11 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: fantasy;
 }
 
 .contact-grid {
-  font-family: 'Jua', sans-serif;
+  font-family: fantasy;
   text-align: center;
   justify-content: center;
   width: 90%;
@@ -99,6 +101,7 @@
 
 .contact-list i {
   font-size: 45px;
+  justify-content: center;
 }
 
 .demo-big-content {
@@ -106,32 +109,23 @@
 }
 
 .resume-left {
-  font-family: 'Jua';
+  font-family: fantasy;
   justify-content: center;
   text-align: center;
 }
 
-.resume-left h5 {
-  font-family: 'Jua'
-}
 
 .resume-left hr {
   margin:auto;
 }
 
-.resume-left p {
-  font-size:1.4em;
-}
-
 .resume-rigth {
-  background-color: #B3B6B7;
+  background-color: #8bc6d0;
   color:black;
 }
 
 .resume-rigth h3 {
   margin-top: 0px;
   margin-bottom:0px;
-  border-radius: 20px;
-  text-align: center;
-  border:3px solid red;
+  border: 3px solid black;
 }

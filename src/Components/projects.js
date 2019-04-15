@@ -14,11 +14,11 @@ class Project extends Component {
 			return(
 					<div className = 'cards'>
 						<Card shadow={5} style = {{minWidth: '400px', margin:'auto'}}>
-							<CardTitle style = {{height: '300px', color:'white', justifyContent: 'center', background: 
+							<CardTitle style = {{height: '300px', color:'white', justifyContent: 'center',  background: 
 								'url(https://cms-assets.tutsplus.com/uploads/users/30/posts/18346/preview_image/react-retina-preview.png) center /cover '}}>
 								React Project
 							</CardTitle>
-							<CardText style = {{color: 'red', margin: 'auto'}}> <h3>Cooming soon</h3></CardText>
+							<CardText style = {{color: 'red', margin: 'auto', paddingTop: '0px'}}> <h3>Cooming soon</h3></CardText>
 							<CardActions border>
 								<Button colored>Github</Button>
 							</CardActions>
@@ -37,7 +37,7 @@ class Project extends Component {
 								'url(https://www.apemockups.com/wp-content/uploads/edd/2017/10/python-logo.png) center /cover '}}>
 								Python Project
 							</CardTitle>
-							<CardText style = {{color: 'white', backgroundColor:"black", margin: 'auto'}}> <h3>Cooming soon</h3></CardText>
+							<CardText style = {{color: 'white', backgroundColor:"black", margin: 'auto',paddingTop: '0px'}}> <h3>Cooming soon</h3></CardText>
 							<CardActions border>
 								<Button colored>Github</Button>
 							</CardActions>
@@ -55,7 +55,7 @@ class Project extends Component {
 								'url(https://www.nsoftware.com/platforms/nodejs/default.png) center /cover '}}>
 								Node Project
 							</CardTitle>
-							<CardText style = {{color: 'white', backgroundColor: "black", margin: 'auto'}}><h3> Cooming soon</h3></CardText>
+							<CardText style = {{color: 'white', backgroundColor: "black", margin: 'auto', paddingTop: '0px'}}><h3> Cooming soon</h3></CardText>
 							<CardActions border>
 								<Button colored >Github</Button>
 							</CardActions>
@@ -73,7 +73,7 @@ class Project extends Component {
 								'url(https://dwglogo.com/wp-content/uploads/2017/09/1500px-Postgresql_logo.png) center /cover '}}>
 								PostgreSQL Project
 							</CardTitle>
-							<CardText style = {{color: 'white', backgroundColor:"black", margin: 'auto'}}> <h3>Cooming soon</h3></CardText>
+							<CardText style = {{color: 'white', backgroundColor:"black", margin: 'auto', paddingTop: '0px'}}> <h3>Cooming soon</h3></CardText>
 							<CardActions border>
 								<Button colored>Github</Button>
 							</CardActions>
@@ -89,8 +89,8 @@ class Project extends Component {
 
     render() {
         return (
-	      	<div className = "category-tab">
-	      		<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+	      	<div className = "cards">
+	      		<Tabs className = "category-tab" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
 	                    <Tab>React</Tab>
 	                    <Tab>Python</Tab>
 	                    <Tab>Node</Tab>

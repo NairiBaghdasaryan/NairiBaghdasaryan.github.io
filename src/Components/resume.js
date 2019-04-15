@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import avatar1 from '../image/avatar1.jpg';
 
 
 const Resume = () => {
@@ -13,20 +14,20 @@ const Resume = () => {
       			
       			<Cell col = {4} className='resume-left'> 
       				<div>
-      					<img style = {{ height: '200px', paddingTop: '0px'}} src = 'https://www.domstamand.com/wp-content/uploads/2016/12/avatar1.jpg'
+      					<img style = {{ height: '200px', paddingTop: '0px'}} src = {avatar1}
       					alt = 'avatar1'
       					/>
    					</div>
 
-      				<h3 style = {{paddingTop:'1em',color:'grey'}}> Name Surname</h3>
+      				<h3 style = {{paddingTop:'1em', color:'grey'}}> Name Surname</h3>
       				<h5 style ={{color:'black'}}>Junior Full Stack Developer </h5>
       				<hr style ={{borderTop:'3px solid black', width: '70%'}} />
       				<h5  style ={{color:'grey'}}> Address </h5>
-      				<p>  147, al. Niepodleg 66, 55-665,<br/> Warsaw, Poland </p>
+      				<h6>  147, al. Niepodleg 66, 55-665, <br/> Warsaw, Poland </h6>
 
       			</Cell>
       			
-      			<Cell col = {8} className='resume-rigth' style={{borderRadius: '20px'}}>  
+      			<Cell col = {8} className='resume-rigth'>  
       				<h3>Education</h3> 
       				
       				<Education

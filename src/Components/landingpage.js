@@ -1,4 +1,5 @@
 import React  from 'react';
+import avatar from '../image/avatar.png';
 
 const Landing =() => {
 
@@ -8,8 +9,8 @@ const Landing =() => {
         		
         		<div>
         			<img  
-        				src = "https://cdn.pixabay.com/photo/2013/07/13/11/34/owl-158414_960_720.png"
-        				alt = "avater"
+        				src = {avatar}
+        				alt = "avatar"
         				className = "avatar-img"
 
         			/>
@@ -17,7 +18,7 @@ const Landing =() => {
         		
         		<div className = "banner-text" style = {{paddingTop: '0px', margin: 'auto'}} >
         			
-        				<h1> Full stack Developer</h1>
+        				<h1> Full Stack Developer</h1>
         				<hr/>
         				<p> HTML5 | CSS3 | JavaScript | React | Node.js |
         				    Git | Github | Python3 | PostgreSQL </p>
