@@ -8,10 +8,9 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  position: fixed;
   justify-content: center;
   top:3em;
-  left:0;
+  
   display: block;
   padding-bottom: 10px;
 }
@@ -28,11 +27,10 @@
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 60%;
+  width: 80%;
   margin-top: 0px;
   border-radius: 20px;
   color: white;
-  font-size: 60px;
   font-weight: bold;
   text-align: center;
   justify-content: 'center';
@@ -45,22 +43,19 @@
   justify-content: 'center';
 }
 
+
 .banner-text p {
   color: white;
-  font-size: 18px;
-  padding: 1em;
+  font-size: 1.7em;
+  padding-top: 10px;
 }
 
-.soc-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
 
 .soc-links i {
    color: white; 
-   padding-bottom: 4px;
+   padding: 0px 20px  4px 20px;
+   margin: auto;
+   font-size:2em;
 }
 
 .cards {
@@ -123,21 +118,19 @@
 .resume-left hr {
   margin:auto;
 }
+
 .resume-left p {
-  font-size:18px;
+  font-size:1.4em;
 }
 
 .resume-rigth {
-  background-color: gray;
-  color:white;
-  font-family:'Jua';
-
+  background-color: #B3B6B7;
+  color:black;
 }
 
 .resume-rigth h3 {
   margin-top: 0px;
   margin-bottom:0px;
-  font-family:'Jua';
   border-radius: 20px;
   text-align: center;
   border:3px solid red;

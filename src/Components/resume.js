@@ -75,42 +75,33 @@ const Resume = () => {
 
       				<Skills
       				skill = 'HTML5/CSS3'
-      				progress = {80}
+      				progress = {90}
       				/>
 
       				<Skills
       				skill = 'JavaScript'
-      				progress = {48}
+      				progress = {82}
       				/>
 
       				<Skills
       				skill = 'React'
-      				progress = {40}
+      				progress = {70}
       				/>
 
-                              <Skills
-                              skill = 'PostgreSQL'
-                              progress = {20}
-                              />
-
-                              <Skills
-                              skill = 'Node'
-                              progress = {30}
-                              />
-
+                              
                               <Skills
                               skill = 'Python'
-                              progress = {40}
+                              progress = {80}
                               />
 
                               <Skills
                               skill = 'Git'
-                              progress = {50}
+                              progress = {84}
                               />
 
                               <Skills
                               skill = 'Github'
-                              progress = {60}
+                              progress = {87}
                               />
 
       				<h3>Languages</h3> 

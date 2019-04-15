@@ -22,7 +22,7 @@ const Landing =() => {
         				<p> HTML5 | CSS3 | JavaScript | React | Node.js |
         				    Git | Github | Python3 | PostgreSQL </p>
         			
-        				<div style = {{justifyContent: 'center',display: 'block'}}>
+        				
         					<div className ="soc-links">
 		        				{/* Linkedin*/}
 		        				<a href = 'http://google.com' rel = 'noopener noreferrer' target = '_blank'>
@@ -44,7 +44,7 @@ const Landing =() => {
 		        					<i className = 'fa fa-facebook-square' aria-hidden = 'true' />
 		        				</a>
 		        			</div>
-		        		</div>
+		        		
 	       		</div>		
         </div>
 		

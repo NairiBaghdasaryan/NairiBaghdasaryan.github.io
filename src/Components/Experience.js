@@ -10,7 +10,7 @@ class Experience extends Component {
 					</Cell>
 
 					<Cell col = {8}>
-						<h5 style = {{marginTop: '0px', fontSize:'1.2em', fontFamily: 'Jua'}}>Company: {this.props.compName}</h5> 
+						<h5 style = {{marginTop: '0px', fontSize:'1.2em'}}>Company: {this.props.compName}</h5> 
 						<p style = {{fontSize:'1.1em'}}>Position: {this.props.jpos}</p> 
 						<p style = {{fontSize:'1.1em'}}>Description: {this.props.jdesc}</p> 
 					</Cell>

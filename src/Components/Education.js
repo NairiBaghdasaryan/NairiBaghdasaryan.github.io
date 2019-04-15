@@ -11,7 +11,7 @@ class Education extends Component {
 					</Cell>
 
 					<Cell col = {8}>
-						<h5 style = {{marginTop: '0px', fontSize:'1.2em', fontFamily: 'Jua'}}> {this.props.uName}</h5> 
+						<h5 style = {{marginTop: '0px', fontSize:'1.2em'}}> {this.props.uName}</h5> 
 						<p style = {{fontSize:'1.1em'}}>{this.props.stName}</p> 
 						<p style = {{fontSize:'1.1em'}}>{this.props.stName}</p> 
 						<p style = {{fontSize:'1.1em'}}>{this.props.sDegree}</p>
