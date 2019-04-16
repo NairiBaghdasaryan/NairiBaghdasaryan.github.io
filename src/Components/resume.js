@@ -19,11 +19,11 @@ const Resume = () => {
       					/>
    					</div>
 
-      				<h3 style = {{paddingTop:'1em', color:'grey'}}> Name Surname</h3>
-      				<h5 style ={{color:'black'}}>Junior Full Stack Developer </h5>
+      				<h3 style = {{paddingTop:'1em', color:'grey'}}> Nairi Baghdasaryan</h3>
+      				<h5 style ={{color:'black'}}>Junior Front-End Developer </h5>
       				<hr style ={{borderTop:'3px solid black', width: '70%'}} />
       				<h5  style ={{color:'grey'}}> Address </h5>
-      				<h6>  147, al. Niepodleg 66, 55-665, <br/> Warsaw, Poland </h6>
+      				<h6>  53, al. Niepodlegloschi 71, 02-626, <br/> Warsaw, Poland </h6>
 
       			</Cell>
       			
@@ -33,7 +33,7 @@ const Resume = () => {
       				<Education
       				sYear = {2008}
       				eYear = {2012}
-      				uName = 'Some State University'
+      				uName = 'Yerevan State University'
       				stName = 'Department of Physics'
       				sDegree = 'Bachelors Degree'
       				/>
@@ -41,7 +41,7 @@ const Resume = () => {
       				<Education
       				sYear = {2012}
       				eYear = {2014}
-      				uName = 'Some State University'
+      				uName = 'Yerevan State University'
       				stName = 'Department of Physics'
       				sDegree = 'Master Degree'
       				/>
@@ -49,7 +49,7 @@ const Resume = () => {
       				<Education
       				sYear = {2014}
       				eYear = {2017}
-      				uName = 'Some State University'
+      				uName = 'Yerevan State University'
       				stName = 'Department of Engineering'
       				sDegree = 'PhD Degree'
       				/>
@@ -57,8 +57,8 @@ const Resume = () => {
       				<Education
       				sYear = {2018}
       				eYear = 'currently'
-      				uName = 'University Name'
-      				stName = 'Physical Performance'
+      				uName = 'National Center of Nuclear Research'
+      				stName = 'TRISO fuel Performance Analysis'
       				sDegree = 'PhD study'
       				/>
 
@@ -67,9 +67,9 @@ const Resume = () => {
       				<Experience
       				sYear = {2012}
       				eYear = {2018}
-      				compName = 'Some Company'
+      				compName = 'NRSC'
       				jpos = 'Specialist on something'
-      				jdesc = 'Perform some analysis'
+      				jdesc = 'Perform Criticality Safet Analysis'
       				/>
 
       				<h3>Skills</h3> 

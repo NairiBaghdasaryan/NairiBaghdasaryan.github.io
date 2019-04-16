@@ -18,7 +18,7 @@ const Landing =() => {
         		
         		<div className = "banner-text" style = {{paddingTop: '0px', margin: 'auto'}} >
         			
-        				<h1> Full Stack Developer</h1>
+        				<h1> Junior Front - End Developer</h1>
         				<hr/>
         				<p> HTML5 | CSS3 | JavaScript | React | Node.js |
         				    Git | Github | Python3 | PostgreSQL </p>

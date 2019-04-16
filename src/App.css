@@ -1,4 +1,4 @@
-.header-color, .landing-grid, .cards {
+.header-color, .landing-grid, .project-grid {
   background: #FEAC5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -9,9 +9,8 @@
   height: 100%;
   width: 100%;
   justify-content: center;
-  top:3em;
+  
   display: block;
-  padding-bottom: 10px;
 }
 
 .avatar-img {
@@ -61,14 +60,11 @@
 }
 
 .cards {
+  justify-content: center;
   text-align: center;
-  padding-top: 10px;
+   width: 100%;
 }
 
-.cardstext {
-  text-align: center;
-  margin:auto;
-}
 
 .contact-body {
   margin:auto;
@@ -84,19 +80,16 @@
   font-family: fantasy;
   text-align: center;
   justify-content: center;
-  width: 90%;
-  height: 500px;
+  width: 80%;
   background:white;
   color: black;
-  margin-bottom:20px;
-  display: flex;
-}
+  }
 
+ 
 .contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
   margin:auto;
-
 }
 
 .contact-list i {
