@@ -26,22 +26,22 @@ const Landing =() => {
         				
         					<div className ="soc-links">
 		        				{/* Linkedin*/}
-		        				<a href = 'http://google.com' rel = 'noopener noreferrer' target = '_blank'>
+		        				<a href = 'https://www.linkedin.com/in/nairi-baghdasaryan-3a299393/' rel = 'noopener noreferrer' target = '_blank'>
 		        					<i className = 'fa fa-linkedin-square' aria-hidden = 'true' />
 		        				</a>
 
 		        				{/* Github*/}
-		        				<a href = 'http://google.com' rel = 'noopener noreferrer' target = '_blank'>
+		        				<a href = 'https://github.com/NairiBaghdasaryan' rel = 'noopener noreferrer' target = '_blank'>
 		        					<i className = 'fa fa-github-square' aria-hidden = 'true' />
 		        				</a>
 
 		        				{/* Freecodecamp*/}
-		        				<a href = 'http://google.com' rel = 'noopener noreferrer' target = '_blank'>
-		        					<i className = 'fa fa-free-code-camp' aria-hidden = 'true' />
+		        				<a href = 'https://www.hackerrank.com/nairi_baghdasar1' rel = 'noopener noreferrer' target = '_blank'>
+		        					<i className = 'fa fa-globe' aria-hidden = 'true' />
 		        				</a>
 
 		        				{/* Facebook*/}
-		        				<a href = 'http://google.com' rel = 'noopener noreferrer' target = '_blank'>
+		        				<a href = 'https://www.facebook.com/nairi.baghdasaryan' rel = 'noopener noreferrer' target = '_blank'>
 		        					<i className = 'fa fa-facebook-square' aria-hidden = 'true' />
 		        				</a>
 		        			</div>

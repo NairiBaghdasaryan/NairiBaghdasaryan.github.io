@@ -68,8 +68,8 @@ const Resume = () => {
       				sYear = {2012}
       				eYear = {2018}
       				compName = 'NRSC'
-      				jpos = 'Specialist on something'
-      				jdesc = 'Perform Criticality Safet Analysis'
+      				jpos = 'Specialist on Neutronic Analysis'
+      				jdesc = 'Perform Criticality Safety Analysis'
       				/>
 
       				<h3>Skills</h3> 
